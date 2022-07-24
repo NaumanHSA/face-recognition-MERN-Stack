@@ -8,8 +8,6 @@
 
 This repository represents a MERN stack application for face recognition authentication. The repo contains a sample front-end React JS application along with Node Js connected with Mongo DB in the backend. The React JS application has the capability to send request for registering a user, recognizing new user, deregistering a user and requesting to show all registered persons in the database.
 
-<br>
-
 ## <div>General Capabilities</div>
 
 * <b>Registering User:</b> User can be registered by entering the name/email and choosing its photo from the React app (Make sure the photo contains only user's face, not multiple faces). The React app sends the name and photo to the server where the server receives the image, process it and extract face embeddings using face-api. The face embeddings are then saved in the database with the name/email of the user. The server then sends a response back to the React app.
@@ -18,8 +16,6 @@ This repository represents a MERN stack application for face recognition authent
 * <b>Deregister Person:</b> We can also deregister a person by entering its name from the database from the React app. The server then first checks if the person is registered already and remove it from the database. It then send a response back to the React app.
 
 * <b>Show Registered Persons:</b> We can also send a get request from the React app to the server to show all registered persons in the database. The server sends an array of registered persons in the response to the React app.
-
-<br>
 
 ## <div>Quick Start Examples</div>
 
@@ -45,8 +41,6 @@ $ npm start
 The current back-end and front-end code was tested on Node version 14.15.1 and npm version 6.14.8.
 </details>
 
-<br>
-
 ## <div>How do Face Recognition Work?</div>
 Formally, Face Recognition is defined as the problem of identifying or verifying faces in an image. How exactly do we recognise a face in an image?
 
@@ -67,8 +61,6 @@ Please see the detailed flow of an image flowing through the pipeline for face r
 <div align="center">
   <img width="100%" src="./gallery/FR_pipeline.png"></a>
 </div>
-
-<br>
 
 ## <div>Author</div>
 

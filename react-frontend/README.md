@@ -1,6 +1,5 @@
 <div>
 <h1>Face Recognition - React JS</h1>
-<br>
 
 <div align="center">
   <img width="100%" src="../gallery/cover.png"></a>
@@ -8,8 +7,6 @@
 
 
 This repository serves as the front-end React JS for the MERN stack face recognition application. 
-
-<br>
 
 ## <div>Quick Start Examples</div>
 
@@ -22,8 +19,6 @@ $ npm install
 $ npm start
 ```
 </details>
-
-<br>
 
 ## <div>How do Face Recognition Work?</div>
 Formally, Face Recognition is defined as the problem of identifying or verifying faces in an image. How exactly do we recognise a face in an image?
@@ -45,8 +40,6 @@ Please see the detailed flow of an image flowing through the pipeline for face r
 <div align="center">
   <img width="100%" src="../gallery/FR_pipeline.png"></a>
 </div>
-
-<br>
 
 ## <div>Author</div>
 

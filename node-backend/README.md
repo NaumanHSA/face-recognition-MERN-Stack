@@ -7,11 +7,7 @@
 
 This repository represents the backend Node JS implimentation for the MERN stack face recognition application.
 
-
-<br>
-
 ## <div>Quick Start Examples</div>
-
 <details open>
 <summary><h3><b>Install and Run Node Js</b></h3></summary>
 
@@ -22,8 +18,6 @@ $ cd node-backend
 $ npm install
 $ nodemon start src/index.js
 ```
-<br>
-
 ## <div>How do Face Recognition Work?</div>
 Formally, Face Recognition is defined as the problem of identifying or verifying faces in an image. How exactly do we recognise a face in an image?
 
@@ -45,16 +39,12 @@ Please see the detailed flow of an image flowing through the pipeline for face r
   <img width="100%" src="../gallery/FR_pipeline.png"></a>
 </div>
 
-<br>
-
 </details>
 
 ## <div>Author</div>
-
 Muhammad Nouman Ahsan
 
 ## <div>References</div>
-
 * face-api.js https://github.com/justadudewhohacks/face-api.js/
 
 * face-recognition.js https://github.com/justadudewhohacks/face-recognition.js
