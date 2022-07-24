@@ -22,7 +22,7 @@ This repository represents a MERN stack application for face recognition authent
 <details open>
 <summary><h3><b>Install and Run Node Js</b></h3></summary>
 
-Before running below commands for installing packages, make sure C++ development kit is already installed. We can install C++ development kit through Visual Studio.
+Before running below commands for installing packages, make sure C++ development kit is already installed. We can install C++ development kit through Visual Studio. Also install MongoDB from their official website.
 
 ```bash
 $ cd node-backend
