@@ -1,0 +1,20 @@
+{
+  "name": "face-recognition",
+  "version": "0.0.0",
+  "description": "FaceAPI: AI-powered Face Detection, Face Embedding & Recognition Using tfjs",
+  "author": "Muhammad Nouman Ahsan",
+  "private": true,
+  "license": "None",
+  "scripts": {
+    "start": "node --trace-warnings src/index.js"
+  },
+  
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.15.0",
+    "canvas": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "face-api.js": "^0.22.2",
+    "mongoose": "^6.2.10"
+  }
+}
